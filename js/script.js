@@ -57,12 +57,23 @@ Stampare in console la bici con peso minore utilizzando destructuring e template
 */
 
 //creare un array di oggetti(biciDaCorsa= nome, peso,)
-
-
 const biciDaCorsa = [
     {name:'Scott',peso: 15},
     {name:'Specialized',peso: 12},
     {name:'Canyon',peso: 10},
     {name:'Willier',peso: 11}
 ]
+
+
+//parto da zero per il ciclo for
+let biciLeggera = biciDaCorsa[0];
+
+
+//giro dentro arrey bicidacorsa per trovare la piu leggera
+for(let{neme, peso} of biciDaCorsa){
+    if()
+}
+
+
+console.log(biciLeggera)
 
